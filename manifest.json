@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Speedreader Extension",
+  "description": "Extension to help you read faster and more efficient",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
